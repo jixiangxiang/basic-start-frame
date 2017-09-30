@@ -5,6 +5,8 @@ buildscript {
 //        jcenter()
         mavenLocal()
         maven { url NEXUS_SERVER_URL }
+        jcenter()
+        maven { url "https://jitpack.io" }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.3.3'
@@ -20,7 +22,8 @@ allprojects {
     repositories {
         mavenLocal()
         maven { url NEXUS_SERVER_URL }
-        maven { url 'https://jitpack.io' }
+        jcenter()
+        maven { url "https://jitpack.io" }
     }
 }
 
