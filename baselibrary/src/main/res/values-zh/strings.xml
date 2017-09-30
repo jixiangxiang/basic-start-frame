@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">基础类库</string>
+    <string name="loading">加载中...</string>
+    <string name="confirm">确定</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="take_photo">take photo</string>
+    <string name="album">album</string>
+    <string name="cancel">cancel</string>
+    <string name="barcode_info">The bar code into the box, you can automatically scan</string>
+    <string name="qrcode_info">Put the two-dimensional code bar code into the box, you can automatically scan</string>
+</resources>

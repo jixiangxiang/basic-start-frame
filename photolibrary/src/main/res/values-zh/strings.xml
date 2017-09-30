@@ -1,0 +1,7 @@
+<resources>
+    <string name="take_photo">拍照</string>
+    <string name="album">相册</string>
+    <string name="cancel">取消</string>
+    <string name="barcode_info">将条码放入框内，即可自动扫描</string>
+    <string name="qrcode_info">将二维码/条码放入框内，即可自动扫描</string>
+</resources>

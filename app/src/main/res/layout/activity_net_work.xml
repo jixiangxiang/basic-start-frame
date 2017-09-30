@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eric.self.selfapplication.acts.SampleListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/netBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="请求网络"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="217dp" />
+
+        <Button
+            android:id="@+id/photoBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="获取照片"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="217dp" />
+
+        <Button
+            android:id="@+id/scanBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="扫码"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="217dp" />
+
+        <Button
+            android:id="@+id/imageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="图片显示"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="217dp" />
+        <Button
+            android:id="@+id/mvpBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="mvp"
+            tools:layout_editor_absoluteX="132dp"
+            tools:layout_editor_absoluteY="217dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
