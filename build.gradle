@@ -2,9 +2,9 @@
 
 buildscript {
     repositories {
-//        jcenter()
-        mavenLocal()
         // { url NEXUS_SERVER_URL }
+        mavenLocal()
+        jcenter()
         mavenCentral()
         maven { url "https://jitpack.io" }
     }
@@ -22,6 +22,7 @@ allprojects {
     repositories {
         mavenLocal()
         //maven { url NEXUS_SERVER_URL }
+        jcenter()
         mavenCentral()
         maven { url "https://jitpack.io" }
     }
