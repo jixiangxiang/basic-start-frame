@@ -17,13 +17,13 @@
     > dependencies {compile 'com.github.jixiangxiang.basic-start-frame:baselibrary:1.0.2'}
     ###### 本类库主要包含app开发的基础功能，基础的mvp框架的封装，基础的弹框，加载框封装，列表的数据适配器，通用的holder封装，retrofit+okhttp+rxjava的封装，和一些通用的工具类的封装等。
     #### 网络加载
-    ![](screenshot/Screenshot_20171010-153932.png){:height="50%" width="50%"}
+    ![](screenshot/Screenshot_20171010-153932.png =300x)
     #### 图片选择
-    ![](screenshot/Screenshot_20171010-153938.png){:height="50%" width="50%"}
+    ![](screenshot/Screenshot_20171010-153938.png =300x)
     #### 二维码扫描
-    ![](screenshot/Screenshot_20171010-153942.png){:height="50%" width="50%"}
+    ![](screenshot/Screenshot_20171010-153942.png =300x)
     #### 基础mvp
-    ![](screenshot/Screenshot_20171010-153956.png){:height="50%" width="50%"}
+    ![](screenshot/Screenshot_20171010-153956.png =300x)
 2. photolibrary
 
     >dependencies { compile 'com.github.jixiangxiang.basic-start-frame:photolibrary:1.0.2'}
