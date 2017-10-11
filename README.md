@@ -31,8 +31,10 @@
     ###### 本类库主要包含图片选择包含拍照选择和相册选择，裁剪，图片加载，默认集成的glide，二维码扫描（使用的bga-qrcodecore和bga-zxing），图片显示放大缩小，
      #### 图片选择
      <img width="300" src="screenshot/Screenshot_20171010-153938.png"/>
+     
      #### 二维码扫描
      <img width="300" src="screenshot/Screenshot_20171010-153942.png"/>
+     
      #### 图片加载显示
      <img width="300" src="screenshot/Screenshot_20171010-153947.png"/>
      <img width="300" src="screenshot/Screenshot_20171010-153952.png"/>
