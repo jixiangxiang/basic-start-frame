@@ -66,3 +66,5 @@ freeline_project_description.json
 
 .idea
 .idea/markdown-exported-files.xml
+/.gradle/
+gradle
