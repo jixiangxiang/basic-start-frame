@@ -12,9 +12,6 @@ import com.eric.self.baselibrary.dialog.ProgressDialogUtil;
 import com.eric.self.baselibrary.util.swipeback.SwipeBackActivity;
 import com.eric.self.baselibrary.util.swipeback.SwipeBackLayout;
 
-import butterknife.ButterKnife;
-import butterknife.Unbinder;
-
 
 /**
  * Created by laucherish on 16/3/15.
@@ -22,7 +19,6 @@ import butterknife.Unbinder;
 public abstract class BaseActivity extends SwipeBackActivity implements IMvpView {
 
     protected SwipeBackLayout mSwipeBackLayout;
-    private Unbinder unbinder;
     private ProgressDialog mProgressDialog;
 
     @Override
@@ -39,14 +35,12 @@ public abstract class BaseActivity extends SwipeBackActivity implements IMvpView
         setContentView(getLayoutId());
         mSwipeBackLayout = getSwipeBackLayout();
         mSwipeBackLayout.setEdgeTrackingEnabled(SwipeBackLayout.EDGE_LEFT);
-        unbinder = ButterKnife.bind(this);
         afterCreate(savedInstanceState);
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        unbinder.unbind();
         if (mProgressDialog != null) {
             mProgressDialog.dismiss();
             mProgressDialog = null;
