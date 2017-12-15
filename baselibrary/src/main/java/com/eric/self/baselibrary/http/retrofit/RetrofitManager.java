@@ -78,7 +78,6 @@ public class RetrofitManager {
                 .baseUrl((String) SPUtils.get(context, BASE_URL, ""))
                 .client(mOkHttpClient)
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
-                .addConverterFactory(GsonConverterFactory.create())
                 .addConverterFactory(FastJsonConverterFactory.create())
                 .build();
     }
