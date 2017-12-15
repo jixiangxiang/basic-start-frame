@@ -2,7 +2,7 @@
 
 buildscript {
     repositories {
-         maven { url NEXUS_SERVER_URL }
+//         maven { url NEXUS_SERVER_URL }
         mavenLocal()
         jcenter()
         mavenCentral()
@@ -19,7 +19,7 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url NEXUS_SERVER_URL }
+//        maven { url NEXUS_SERVER_URL }
         mavenLocal()
         jcenter()
         mavenCentral()
